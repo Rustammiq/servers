@@ -1,0 +1,41 @@
+{
+  "mcpServers": {
+    "everything": {
+      "command": "node",
+      "args": ["/workspace/src/everything/dist/index.js"],
+      "env": {}
+    },
+    "filesystem": {
+      "command": "node", 
+      "args": ["/workspace/src/filesystem/dist/index.js"],
+      "env": {
+        "MCP_FILESYSTEM_ROOT": "/workspace"
+      }
+    },
+    "memory": {
+      "command": "node",
+      "args": ["/workspace/src/memory/dist/index.js"],
+      "env": {}
+    },
+    "sequential-thinking": {
+      "command": "node",
+      "args": ["/workspace/src/sequentialthinking/dist/index.js"],
+      "env": {}
+    },
+    "time": {
+      "command": "python3",
+      "args": ["/workspace/src/time/src/main.py"],
+      "env": {}
+    },
+    "fetch": {
+      "command": "python3",
+      "args": ["/workspace/src/fetch/src/main.py"],
+      "env": {}
+    },
+    "git": {
+      "command": "python3",
+      "args": ["/workspace/src/git/src/main.py"],
+      "env": {}
+    }
+  }
+}
