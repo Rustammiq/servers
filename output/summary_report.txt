@@ -1,0 +1,33 @@
+
+AI Document Processing Summary Report
+====================================
+
+Generated: 2025-07-09 23:44:14
+Documents Processed: 4
+
+📊 Overall Statistics:
+- Total Words: 71
+- Total Sentences: 7
+- Average Words per Document: 17.8
+
+🌍 Language Distribution:
+- Dutch: 4
+- English: 0
+
+😊 Sentiment Analysis:
+- Positive: 0
+- Neutral: 4
+
+📚 Topic Distribution:
+- AI/ML: 3 documents
+- documenten: 2 documents
+- multimedia: 2 documents
+- data analyse: 1 documents
+
+🎯 AI Processing Summary:
+This batch of documents was successfully processed using:
+- MCP Filesystem Server: For document I/O operations
+- MCP Memory Server: For storing analysis results
+- LWM AI Model: For content analysis and insights
+
+All individual reports have been saved to /workspace/output/
